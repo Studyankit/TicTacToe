@@ -9,8 +9,7 @@ namespace TicTacToeGame
         {
             TicTacToeGame.Letter();
             TicTacToeGame.CreateBoard();
-
-            
+            TicTacToeGame.showBoard();
         }
 
     }

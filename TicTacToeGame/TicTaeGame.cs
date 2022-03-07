@@ -8,5 +8,14 @@ namespace TicTacToeGame
 {
     internal class TicTaeGame
     {
+        public char[] CreateBoar()
+        {
+            char[] Board = new char[10];
+            for (int i = 0; i < Board.Length; i++)
+            {
+                Board[i] = ' ';
+            }
+            return Board;
+        }
     }
 }
